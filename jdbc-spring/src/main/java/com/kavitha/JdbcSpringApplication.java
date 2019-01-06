@@ -17,7 +17,7 @@ import org.springframework.jdbc.support.KeyHolder;
 public class JdbcSpringApplication implements CommandLineRunner {
 
 	@Autowired
-	private JdbcTemplate jdbcTemplate;
+	private JdbcTemplate jdbcTemplate; 
 	
 	public static void main(String[] args) {
 		SpringApplication.run(JdbcSpringApplication.class, args);
